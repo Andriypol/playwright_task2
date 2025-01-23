@@ -49,3 +49,8 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./allure-report
           publish_branch: gh-pages
+
+        env:
+          VALID_LOGIN: ${{ secrets.VALID_LOGIN }}
+          VALID_PASSWORD: ${{ secrets.VALID_PASSWORD }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}    
