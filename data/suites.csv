@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","3269","Search with valid input","chromium","Thu Jan 23 13:35:00 UTC 2025","passed","Thu Jan 23 13:35:03 UTC 2025","Redmine Tests","redmine.spec.ts","",""
+"","5924","User log in with valid credentials","chromium","Thu Jan 23 13:35:03 UTC 2025","passed","Thu Jan 23 13:35:09 UTC 2025","Redmine Tests","redmine.spec.ts","",""
+"","4037","Registration of a user using invalid data","chromium","Thu Jan 23 13:35:13 UTC 2025","passed","Thu Jan 23 13:35:17 UTC 2025","Redmine Tests","redmine.spec.ts","",""
+"","4327","Registration of a user using valid data","chromium","Thu Jan 23 13:35:09 UTC 2025","passed","Thu Jan 23 13:35:13 UTC 2025","Redmine Tests","redmine.spec.ts","",""
+"","9558","Validate main menu navigation links on homepage","chromium","Thu Jan 23 13:35:18 UTC 2025","passed","Thu Jan 23 13:35:27 UTC 2025","Redmine Tests","redmine.spec.ts","",""
