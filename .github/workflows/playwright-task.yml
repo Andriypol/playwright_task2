@@ -9,6 +9,11 @@ jobs:
   build-and-test:
     runs-on: ubuntu-latest
 
+    env:
+      VALID_LOGIN: ${{ secrets.VALID_LOGIN }}
+      VALID_PASSWORD: ${{ secrets.VALID_PASSWORD }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+
     steps:
       # Step 1: Checkout the repository
       - name: Checkout code
@@ -32,12 +37,7 @@ jobs:
         run: npm ci
 
       - name: Install Playwright browsers
-        run: npx playwright install  
-        
-        env:
-          VALID_LOGIN: ${{ secrets.VALID_LOGIN }}
-          VALID_PASSWORD: ${{ secrets.VALID_PASSWORD }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   
+        run: npx playwright install    
       
       # Step 5: Run Playwright tests
       - name: Run Playwright tests
