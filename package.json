@@ -1,0 +1,16 @@
+{
+  "name": "playwright-task-two",
+  "version": "1.0.0",
+  "description": "Automated testing of Redmine website with Playwright",
+  "devDependencies": {
+    "@faker-js/faker": "^9.4.0",
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.7",
+    "allure-commandline": "^2.32.0",
+    "allure-playwright": "^3.0.9",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
