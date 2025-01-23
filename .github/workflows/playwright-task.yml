@@ -33,7 +33,12 @@ jobs:
 
       - name: Install Playwright browsers
         run: npx playwright install  
-
+        
+        env:
+          VALID_LOGIN: ${{ secrets.VALID_LOGIN }}
+          VALID_PASSWORD: ${{ secrets.VALID_PASSWORD }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   
+      
       # Step 5: Run Playwright tests
       - name: Run Playwright tests
         run: npx playwright test --reporter=line,allure-playwright
@@ -50,7 +55,4 @@ jobs:
           publish_dir: ./allure-report
           publish_branch: gh-pages
 
-        env:
-          VALID_LOGIN: ${{ secrets.VALID_LOGIN }}
-          VALID_PASSWORD: ${{ secrets.VALID_PASSWORD }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}    
+         
