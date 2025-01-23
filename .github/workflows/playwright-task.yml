@@ -33,7 +33,7 @@ jobs:
 
       # Step 5: Run Playwright tests
       - name: Run Playwright tests
-        run: npx playwright test --output-dir=allure-results
+        run: npx playwright test --reporter=line,allure-playwright
 
       # Step 6: Generate Allure report
       - name: Generate Allure report
