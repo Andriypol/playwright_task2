@@ -1,6 +1,9 @@
 name: Playwright Tests with Allure Reports
 
-
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   build-and-test:
