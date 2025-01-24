@@ -34,8 +34,8 @@ Install dependencies:
 
 Create environment variables in the Actions:
 
-CYPRESS_VALID_LOGIN\
-CYPRESS_VALID_PASSWORD
+VALID_LOGIN\
+VALID_PASSWORD
 
 ## **Test Reports**
 Allure reports are diplayed on GitHub Pages\
