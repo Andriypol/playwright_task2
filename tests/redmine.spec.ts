@@ -54,7 +54,7 @@ test.describe('Redmine Tests', () => {
 
     const errorAlert = page.locator('#errorExplanation');
     await expect(page).toHaveURL(/account\/register/);
-    await expect(errorAlert).toContainText('Email is invaliii');
+    await expect(errorAlert).toContainText('Email is invalid');
   });
 
   test('Validate main menu navigation links on homepage', async ({ page, homePage }) => {
