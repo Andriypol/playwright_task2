@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jan 24 09:02:59 GMT 2025","Fri Jan 24 09:03:11 GMT 2025","11495","chromium","redmine.spec.ts","Redmine Tests","","","Validate main menu navigation links on homepage",""
+"passed","Fri Jan 24 09:02:22 GMT 2025","Fri Jan 24 09:02:28 GMT 2025","5221","chromium","redmine.spec.ts","Redmine Tests","","","Registration of a user using valid data",""
+"passed","Fri Jan 24 09:02:13 GMT 2025","Fri Jan 24 09:02:17 GMT 2025","3886","chromium","redmine.spec.ts","Redmine Tests","","","Search with valid input",""
+"passed","Fri Jan 24 09:02:17 GMT 2025","Fri Jan 24 09:02:22 GMT 2025","5155","chromium","redmine.spec.ts","Redmine Tests","","","User log in with valid credentials",""
+"failed","Fri Jan 24 09:02:49 GMT 2025","Fri Jan 24 09:02:58 GMT 2025","9599","chromium","redmine.spec.ts","Redmine Tests","","","Registration of a user using invalid data",""
